@@ -20,7 +20,7 @@ import {
     Code
 } from "lucide-react";
 import { FloatingDock } from "./FloatingDock";
-import { VelocityScroll } from "./VelocityScroll";
+
 
 export const SkillsSection = () => {
     // Master Skills - Large, White Icons for Dock
@@ -81,13 +81,9 @@ export const SkillsSection = () => {
 
             {/* Technologies I Master */}
             <div className="flex flex-col items-center space-y-12">
-                <div className="w-full overflow-hidden">
-                    <VelocityScroll
-                        text="Technologies I Master"
-                        defaultVelocity={2}
-                        className="text-white"
-                    />
-                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+                    Technologies I Master
+                </h2>
 
                 <div className="flex items-center justify-center">
                     <FloatingDock
